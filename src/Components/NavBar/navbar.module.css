@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.Navbar {
+	top: 0;
+	left: 0;
+	height: 75px;
+	background:linear-gradient(180deg, #0c0404 0%, rgb(10, 5, 5) 54.17%, rgb(0, 0, 0) 100%);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	
+}
+
+.Links{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+.Link{
+	margin-right: 1em;
+	cursor: pointer;
+	
+}
+.Link:hover{
+	margin-right: 1em;
+	cursor: pointer;
+	background: linear-gradient(160deg, #ad0808 0%, rgba(55, 10, 161, 0.527) 54.17%, rgba(1, 49, 21, 0) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+}
+
+.logo{
+	cursor: pointer;
+	background: linear-gradient(160deg, #3408ad 0%, rgba(55, 10, 161, 0.527) 54.17%, rgba(1, 49, 21, 0) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+}
+.logo:hover{
+	cursor: pointer;
+	background: linear-gradient(160deg, #05b405 0%, rgba(219, 56, 6, 0.527) 54.17%, rgba(49, 1, 39, 0) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+}
+
+
+
+
